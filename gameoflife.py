@@ -9,29 +9,6 @@
 #    O   - settings
 #  Space - pause/play
 
-
-#Will Sieber -
-#I focused primarily on implementing the rules of the game and drawing cells to the screen. Each function is iterated through the run() function that takes another
-#function as an input in order to save some lines of code. Along with this, I created some parts of the while loop that check for certain
-#events when getting mouse/button input from Pygame. Some small odds and ends are included, connecting different parts of the code together
-#in order to make one cohesive program. I assisted in giving functionality to some buttons, as well as opening files in order to make changes
-#to the save file. 
-
-#Tyler Trevillian -
-#While completing our final project, my main contributions included making the user interface for our game.
-#The user interface is drawn to the screen in the main loop, which is then updated each frame by being blit onto the screen,
-#very similar to any other pygame object or text. Along with that, I created 2 buttons to our code called “Options Menu” and “Start/Stop”.
-#The “Options” button is where the user can click on that button to access and change the options of our game.
-#Next, I created a button called “Start/Stop” where the user can click on that button to turn the rules on or off.
-#With the buttons, I imported the pygame GUI at the beginning of our code, where they are initialized when creating the screen
-#and the events for the module are checked in the main loop to make sure the buttons are working.
-
-#Giovanni Rodriguez -
-#Being accepted late into Will and Tyler's group I mainly focused to catch up on what they've started meeting outside of class.
-#We agreed as a group that adding an options menu would be great for me to contribute and add features to our game.
-#I started to do research and found a source that was very helpful which is tkinter Converter GUI.
-#I modified the code to change the game speed and block size. We also met as a group to help debug each of our codes to be able to make one code.
-
 #########################INIT
 import sys, time, pygame, tkinter, pygame_gui
 
