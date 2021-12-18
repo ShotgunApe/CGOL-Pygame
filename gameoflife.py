@@ -9,6 +9,7 @@
 #    O   - settings
 #  Space - pause/play
 
+
 #########################INIT
 import sys, time, pygame, tkinter, pygame_gui
 
